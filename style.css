@@ -1,19 +1,27 @@
-body{
-    background-color:fuchsia;
-    color: goldenrod;
+body
+{
+  color: white;
+  background: #c0d3ff;
 }
-
-.heading{
-    width:100%;
-    font-size:22px;
+span
+{
+  font-size: 30px;
 }
-
-#camera{
-border:2px dashed firebrick;
-width:350px;
-height:300px;
+#camera , #result
+{
+  border: 2px dashed black;
+  width: 350px;
+  height: 300px; 
 }
-
-.name_of_person,#result_name,#result_accuracy{
-    color: wheat;
+#result_emotion_name ,#result_emotion_name2  
+{
+  color: black;
+}
+.emotion_name
+{
+  font-size: 40px;
+}
+.emoji
+{
+  font-size:48px;
 }
